@@ -1,0 +1,779 @@
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  google_fonts: ^3.0.1
+  flutter_platform_widgets: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/design-/images/battery.png
+    - assets/preview-/images/margin-1.png
+    - assets/design-/images/battery-qMm.png
+    - assets/design-/images/battery-oWj.png
+    - assets/design-/images/wifi.png
+    - assets/design-/images/battery-nTu.png
+    - assets/preview-/images/rectangle-48.png
+    - assets/preview-/images/rectangle-43.png
+    - assets/preview-/images/rectangle-34-5XH.png
+    - assets/preview-/images/rectangle-31-Pgo.png
+    - assets/design-/images/mobile-signal.png
+    - assets/preview-/images/pencil.png
+    - assets/preview-/images/typography.png
+    - assets/design-/images/wifi-7TH.png
+    - assets/design-/images/wifi-Nv7.png
+    - assets/design-/images/wifi-4fm.png
+    - assets/design-/images/battery-Zkw.png
+    - assets/design-/images/career-progress-pana-1.png
+    - assets/design-/images/browser-stats-amico-1.png
+    - assets/design-/images/right-side.png
+    - assets/preview-/images/rectangle-42.png
+    - assets/preview-/images/rectangle-30.png
+    - assets/design-/images/mobile-signal-y79.png
+    - assets/design-/images/wifi-d9M.png
+    - assets/design-/images/notch.png
+    - assets/preview-/images/rectangle-15.png
+    - assets/preview-/images/rectangle-44.png
+    - assets/preview-/images/image-2.png
+    - assets/design-/images/right-side-ewV.png
+    - assets/design-/images/battery-Stb.png
+    - assets/preview-/images/rectangle-44-Y7d.png
+    - assets/design-/images/wifi-des.png
+    - assets/preview-/images/mask-group.png
+    - assets/design-/images/mobile-signal-fLf.png
+    - assets/design-/images/notch-iAf.png
+    - assets/design-/images/wifi-1fZ.png
+    - assets/design-/images/wifi-915.png
+    - assets/preview-/images/rectangle-15-U3M.png
+    - assets/preview-/images/rectangle-15-o5d.png
+    - assets/preview-/images/rectangle-35.png
+    - assets/design-/images/mobile-signal-5Yw.png
+    - assets/preview-/images/rectangle-15-QLK.png
+    - assets/preview-/images/rgb.png
+    - assets/design-/images/mobile-signal-TAb.png
+    - assets/preview-/images/rectangle-31.png
+    - assets/design-/images/mobile-signal-z1Z.png
+    - assets/design-/images/mobile-signal-4XD.png
+    - assets/preview-/images/rectangle-31-N27.png
+    - assets/design-/images/mobile-signal-gHh.png
+    - assets/design-/images/battery-PC7.png
+    - assets/design-/images/mobile-signal-HoH.png
+    - assets/design-/images/wifi-R8o.png
+    - assets/design-/images/wifi-Xd5.png
+    - assets/preview-/images/rectangle-42-eBu.png
+    - assets/design-/images/mobile-signal-z43.png
+    - assets/design-/images/battery-Xy5.png
+    - assets/design-/images/resume-amico-1.png
+    - assets/design-/images/mobile-signal-3P1.png
+    - assets/preview-/images/rectangle-13.png
+    - assets/design-/images/mask-group-UFM.png
+    - assets/preview-/images/rectangle-46.png
+    - assets/design-/images/notch-FJT.png
+    - assets/design-/images/wifi-BT1.png
+    - assets/preview-/images/rectangle-30-hw9.png
+    - assets/design-/images/battery-Deb.png
+    - assets/preview-/images/rectangle-13-j79.png
+    - assets/design-/images/image-43.png
+    - assets/design-/images/battery-FrB.png
+    - assets/design-/images/wifi-ZM5.png
+    - assets/design-/images/wifi-b4o.png
+    - assets/preview-/images/rectangle-35-jij.png
+    - assets/design-/images/battery-jsH.png
+    - assets/design-/images/career-progress-amico-1.png
+    - assets/preview-/images/layers.png
+    - assets/design-/images/battery-MJB.png
+    - assets/preview-/images/rectangle-45.png
+    - assets/preview-/images/rectangle-34.png
+    - assets/preview-/images/rectangle-45-TtF.png
+    - assets/design-/images/mobile-signal-skF.png
+    - assets/preview-/images/rectangle-42-gzo.png
+    - assets/design-/images/mobile-signal-aaP.png
+    - assets/design-/images/notch-DNT.png
+    - assets/preview-/images/rectangle-35-Y9q.png
+    - assets/preview-/images/rectangle-34-4tj.png
+    - assets/preview-/images/rectangle-45-gU3.png
+    - assets/preview-/images/rectangle-34-675.png
+    - assets/design-/images/good-team-pana-1.png
+    - assets/preview-/images/brush.png
+    - assets/preview-/images/rectangle-46-Ycj.png
+    - assets/design-/images/battery-F1M.png
+    - assets/preview-/images/rectangle-31-fz3.png
+    - assets/preview-/images/rectangle-44-86w.png
+    - assets/preview-/images/rectangle-46-SNX.png
+    - assets/preview-/images/rectangle-35-3Dm.png
+    - assets/preview-/images/rectangle-47.png
+    - assets/preview-/images/rectangle-13-G6X.png
+    - assets/design-/images/battery-DAK.png
+    - assets/preview-/images/rectangle-47-W4b.png
+    - assets/preview-/images/rectangle-13-72B.png
+    - assets/preview-/images/rectangle-30-zrf.png
+    - assets/preview-/images/rectangle-30-fNT.png
+    - assets/preview-/images/rectangle-43-ERZ.png
+    - assets/design-/images/wifi-77H.png
+    - assets/preview-/images/rectangle-47-Sro.png
+    - assets/design-/images/battery-9FR.png
+    - assets/preview-/images/rectangle-43-EbV.png
+    - assets/design-/images/mobile-signal-Hsq.png
+    - assets/design-/images/mobile-signal-aNP.png
+    - assets/design-/images/auto-group-g6fu.png
+    - assets/design-/images/ellipse-bg.png
+    - assets/design-/images/spotigy.png
+    - assets/design-/images/auto-group-hdqp.png
+    - assets/design-/images/wifi-CVR.png
+    - assets/design-/images/auto-group-umcp.png
+    - assets/design-/images/mobile-signal-Vjq.png
+    - assets/design-/images/ellipse-798.png
+    - assets/design-/images/akar-icons-chevron-left.png
+    - assets/design-/images/auto-group-g8kj.png
+    - assets/design-/images/akar-icons-chevron-left-Sps.png
+    - assets/design-/images/ellipse.png
+    - assets/design-/images/battery-RfZ.png
+    - assets/preview-/images/mask-group-6zw.png
+    - assets/design-/images/wifi-tDZ.png
+    - assets/design-/images/spotigy-RFH.png
+    - assets/design-/images/image-37.png
+    - assets/design-/images/image-41.png
+    - assets/design-/images/fluent-local-language-28-filled.png
+    - assets/design-/images/battery-5mD.png
+    - assets/design-/images/fluent-person-support-16-regular.png
+    - assets/design-/images/gg-profile.png
+    - assets/design-/images/carbon-condition-wait-point.png
+    - assets/design-/images/carbon-notification-new.png
+    - assets/design-/images/mdi-form-textbox-password.png
+    - assets/design-/images/akar-icons-chevron-left-z8b.png
+    - assets/design-/images/fluent-delete-24-regular.png
+    - assets/design-/images/fluent-dark-theme-24-filled.png
+    - assets/design-/images/ic-outline-privacy-tip.png
+    - assets/design-/images/ion-help-circle-outline.png
+    - assets/design-/images/wifi-XD5.png
+    - assets/design-/images/arcticons-device-info-pro.png
+    - assets/design-/images/mobile-signal-kbm.png
+    - assets/design-/images/google.png
+    - assets/design-/images/mobile-signal-Ae7.png
+    - assets/design-/images/google-bvb.png
+    - assets/design-/images/akar-icons-chevron-left-SKD.png
+    - assets/design-/images/battery-FKq.png
+    - assets/design-/images/wifi-qP1.png
+    - assets/design-/images/google-Mej.png
+    - assets/design-/images/google-J8B.png
+    - assets/design-/images/google-RqM.png
+    - assets/design-/images/battery-Ho1.png
+    - assets/design-/images/group.png
+    - assets/design-/images/google-jXZ.png
+    - assets/design-/images/mobile-signal-Mo1.png
+    - assets/design-/images/image-30.png
+    - assets/design-/images/akar-icons-chevron-left-b9d.png
+    - assets/design-/images/image-23.png
+    - assets/design-/images/battery-Syy.png
+    - assets/design-/images/akar-icons-chevron-left-RSj.png
+    - assets/design-/images/image-29.png
+    - assets/design-/images/wifi-iFD.png
+    - assets/design-/images/auto-group-a9tw.png
+    - assets/design-/images/mobile-signal-ucP.png
+    - assets/design-/images/wifi-aRq.png
+    - assets/design-/images/ellipse-bg-Lcj.png
+    - assets/design-/images/wifi-kAw.png
+    - assets/design-/images/beats.png
+    - assets/design-/images/notch-QzX.png
+    - assets/design-/images/spotigy-Tzj.png
+    - assets/design-/images/mobile-signal-HZV.png
+    - assets/design-/images/image-28.png
+    - assets/design-/images/mobile-signal-5HM.png
+    - assets/design-/images/battery-49h.png
+    - assets/design-/images/battery-LGs.png
+    - assets/design-/images/job-hunt-amico-1.png
+    - assets/design-/images/mask-group-ZD5.png
+    - assets/design-/images/auto-group-gqf9.png
+    - assets/design-/images/burger-king-4-1.png
+    - assets/design-/images/wifi-Cqq.png
+    - assets/design-/images/notch-7Qo.png
+    - assets/design-/images/wifi-h2s.png
+    - assets/design-/images/auto-group-zqdu.png
+    - assets/design-/images/battery-RS3.png
+    - assets/design-/images/fluent-bookmark-add-20-filled.png
+    - assets/design-/images/mobile-signal-Shq.png
+    - assets/design-/images/mask-group-fAs.png
+    - assets/design-/images/search1-1.png
+    - assets/design-/images/auto-group-sset.png
+    - assets/design-/images/ellipse-bg-7aT.png
+    - assets/design-/images/image-8.png
+    - assets/design-/images/notch-rHh.png
+    - assets/design-/images/auto-group-e29q.png
+    - assets/design-/images/search1-1-93y.png
+    - assets/design-/images/auto-group-dyc3.png
+    - assets/design-/images/wifi-h8F.png
+    - assets/design-/images/battery-qP9.png
+    - assets/design-/images/mobile-signal-rN7.png
+    - assets/design-/images/fluent-bookmark-add-20-filled-cEP.png
+    - assets/design-/images/auto-group-sfwk.png
+    - assets/design-/images/mask-group-kCb.png
+    - assets/design-/images/image-4.png
+    - assets/design-/images/bookmark5.png
+    - assets/design-/images/ellipse-bg-hzj.png
+    - assets/design-/images/auto-group-cewu.png
+    - assets/design-/images/image-5.png
+    - assets/design-/images/ellipse-bg-PYw.png
+    - assets/design-/images/mask-group-su5.png
+    - assets/design-/images/auto-group-vrgw.png
+    - assets/design-/images/auto-group-gajp.png
+    - assets/design-/images/image-8-PzB.png
+    - assets/design-/images/search1-1-6gB.png
+    - assets/design-/images/burger-king-4-1-5Jj.png
+    - assets/design-/images/mobile-signal-g6o.png
+    - assets/design-/images/wifi-kyH.png
+    - assets/design-/images/mask-group-EbD.png
+    - assets/design-/images/burger-king-4-1-U9h.png
+    - assets/design-/images/auto-group-qqvd.png
+    - assets/design-/images/auto-group-whjh.png
+    - assets/design-/images/search1-1-zXV.png
+    - assets/design-/images/battery-g3d.png
+    - assets/design-/images/auto-group-lkg3.png
+    - assets/design-/images/auto-group-x4vo.png
+    - assets/design-/images/wifi-AcK.png
+    - assets/design-/images/battery-agj.png
+    - assets/design-/images/image-8-Hgw.png
+    - assets/design-/images/image-5-KXy.png
+    - assets/design-/images/wifi-nhq.png
+    - assets/design-/images/mobile-signal-YQb.png
+    - assets/design-/images/logos-dribbble-icon.png
+    - assets/design-/images/ellipse-bg-1VM.png
+    - assets/design-/images/mobile-signal-sGf.png
+    - assets/design-/images/auto-group-3eyy.png
+    - assets/design-/images/battery-XpF.png
+    - assets/design-/images/auto-group-xfh5.png
+    - assets/design-/images/auto-group-v2ps.png
+    - assets/design-/images/burger-king-4-1-RU7.png
+    - assets/design-/images/search1-1-jQF.png
+    - assets/design-/images/mobile-signal-YLK.png
+    - assets/design-/images/vector.png
+    - assets/design-/images/auto-group-8kfm.png
+    - assets/design-/images/battery-Y3M.png
+    - assets/design-/images/iconly-light-search.png
+    - assets/design-/images/search1-1-Ccb.png
+    - assets/design-/images/edit-square.png
+    - assets/design-/images/mobile-signal-EMq.png
+    - assets/design-/images/wifi-SHH.png
+    - assets/design-/images/auto-group-ineo.png
+    - assets/design-/images/image-32.png
+    - assets/design-/images/wifi-K9V.png
+    - assets/design-/images/image-4-Cgs.png
+    - assets/design-/images/akar-icons-chevron-left-XW3.png
+    - assets/design-/images/ellipse-bg-rom.png
+    - assets/design-/images/ellipse-782-bg.png
+    - assets/design-/images/ellipse-782-bg-p8K.png
+    - assets/design-/images/battery-K63.png
+    - assets/design-/images/image-8-WbM.png
+    - assets/design-/images/ellipse-782-bg-RqV.png
+    - assets/design-/images/ellipse-782-bg-Dsy.png
+    - assets/design-/images/image-21.png
+    - assets/design-/images/mask-group-v1y.png
+    - assets/design-/images/image-97.png
+    - assets/design-/images/image-79.png
+    - assets/design-/images/vector-Tzb.png
+    - assets/design-/images/auto-group-djtu.png
+    - assets/design-/images/image-93.png
+    - assets/design-/images/bookmark5-kmH.png
+    - assets/design-/images/image-99.png
+    - assets/design-/images/image-101.png
+    - assets/design-/images/image-96.png
+    - assets/design-/images/auto-group-ugaf.png
+    - assets/design-/images/battery-eTV.png
+    - assets/design-/images/ellipse-bg-vWF.png
+    - assets/design-/images/mask-group-ZCF.png
+    - assets/design-/images/wifi-K2T.png
+    - assets/design-/images/wifi-KGP.png
+    - assets/design-/images/auto-group-bpth.png
+    - assets/design-/images/auto-group-dbxh.png
+    - assets/design-/images/logos-dribbble-icon-xtj.png
+    - assets/design-/images/fluent-bookmark-add-20-filled-YGb.png
+    - assets/design-/images/battery-1Es.png
+    - assets/design-/images/search1-1-3MD.png
+    - assets/design-/images/mask-group-4fd.png
+    - assets/design-/images/mobile-signal-eRR.png
+    - assets/design-/images/auto-group-d1kh.png
+    - assets/design-/images/akar-icons-chevron-left-gVH.png
+    - assets/design-/images/vector-3PR.png
+    - assets/design-/images/mobile-signal-qaT.png
+    - assets/design-/images/vector-Fis.png
+    - assets/design-/images/fluent-bookmark-add-20-filled-dRd.png
+    - assets/design-/images/wifi-DcP.png
+    - assets/design-/images/battery-QGB.png
+    - assets/design-/images/mobile-signal-teo.png
+    - assets/design-/images/mobile-signal-Tt7.png
+    - assets/design-/images/battery-GVH.png
+    - assets/design-/images/akar-icons-chevron-left-Epj.png
+    - assets/design-/images/group-159.png
+    - assets/design-/images/akar-icons-chevron-left-1MV.png
+    - assets/design-/images/done-rafiki-1.png
+    - assets/design-/images/wifi-ghR.png
+    - assets/design-/images/battery-YTD.png
+    - assets/design-/images/wifi-7tw.png
+    - assets/design-/images/spotigy-KRm.png
+    - assets/design-/images/auto-group-jc19.png
+    - assets/design-/images/mobile-signal-RFZ.png
+    - assets/design-/images/battery-oHu.png
+    - assets/design-/images/wifi-PXy.png
+    - assets/design-/images/spotigy-Aj5.png
+    - assets/design-/images/mobile-signal-MGF.png
+    - assets/design-/images/akar-icons-chevron-left-3yM.png
+    - assets/design-/images/mask-group-uNK.png
+    - assets/design-/images/battery-iX5.png
+    - assets/design-/images/spotigy-kGs.png
+    - assets/design-/images/vector-vBD.png
+    - assets/design-/images/bi-upload.png
+    - assets/design-/images/teenyicons-tick-circle-solid.png
+    - assets/design-/images/auto-group-5171.png
+    - assets/design-/images/teenyicons-tick-circle-solid-sDD.png
+    - assets/design-/images/mobile-signal-Gtj.png
+    - assets/design-/images/akar-icons-chevron-left-ct3.png
+    - assets/design-/images/akar-icons-chevron-left-Kpf.png
+    - assets/design-/images/wifi-f2K.png
+    - assets/design-/images/ic-round-verified.png
+    - assets/design-/images/mask-group-FUf.png
+    - assets/design-/images/green-bg.png
+    - assets/design-/images/battery-K1M.png
+    - assets/design-/images/mobile-signal-TBZ.png
+    - assets/design-/images/fluent-bookmark-add-20-filled-8mh.png
+    - assets/design-/images/mask-group-BAj.png
+    - assets/design-/images/ic-round-verified-VhD.png
+    - assets/design-/images/mobile-signal-GfM.png
+    - assets/design-/images/wifi-XgP.png
+    - assets/design-/images/mask-group-q3H.png
+    - assets/design-/images/burger-king-4-1-MD5.png
+    - assets/design-/images/auto-group-esaf.png
+    - assets/design-/images/notch-N67.png
+    - assets/design-/images/navbar.png
+    - assets/design-/images/group-181.png
+    - assets/design-/images/group-191.png
+    - assets/design-/images/group-188.png
+    - assets/design-/images/battery-tmH.png
+    - assets/design-/images/vector-E6P.png
+    - assets/design-/images/wifi-yn3.png
+    - assets/design-/images/vector-yKy.png
+    - assets/design-/images/group-186.png
+    - assets/design-/images/group-187.png
+    - assets/design-/images/fluent-bookmark-add-20-filled-sm5.png
+    - assets/design-/images/subtract.png
+    - assets/design-/images/group-MnB.png
+    - assets/design-/images/vector-NzX.png
+    - assets/design-/images/akar-icons-cross.png
+    - assets/design-/images/mask-group-mJs.png
+    - assets/design-/images/auto-group-1zcf.png
+    - assets/design-/images/image-8-Ws5.png
+    - assets/design-/images/ic-round-verified-TyD.png
+    - assets/design-/images/mask-group-jFZ.png
+    - assets/design-/images/battery-HrB.png
+    - assets/design-/images/wifi-9mV.png
+    - assets/design-/images/mobile-signal-TXh.png
+    - assets/design-/images/akar-icons-chevron-left-SEw.png
+    - assets/design-/images/image-16.png
+    - assets/design-/images/wifi-SE7.png
+    - assets/design-/images/image-17.png
+    - assets/design-/images/ellipse-778.png
+    - assets/design-/images/image-18.png
+    - assets/design-/images/image-15.png
+    - assets/design-/images/mobile-signal-uns.png
+    - assets/design-/images/image-4-7E3.png
+    - assets/design-/images/akar-icons-chevron-left-f2T.png
+    - assets/design-/images/image-14.png
+    - assets/design-/images/akar-icons-cross-gLK.png
+    - assets/design-/images/battery-P3h.png
+    - assets/design-/images/image-13.png
+    - assets/design-/images/group-135.png
+    - assets/design-/images/wifi-8Cj.png
+    - assets/design-/images/akar-icons-chevron-left-Fby.png
+    - assets/design-/images/akar-icons-chevron-left-qeK.png
+    - assets/design-/images/mobile-signal-MBy.png
+    - assets/design-/images/battery-yAj.png
+    - assets/design-/images/key.png
+    - assets/design-/images/wifi-HKR.png
+    - assets/design-/images/akar-icons-chevron-left-fWB.png
+    - assets/design-/images/mobile-signal-YYB.png
+    - assets/design-/images/battery-T4X.png
+    - assets/design-/images/search1-1-kTu.png
+    - assets/design-/images/battery-QVq.png
+    - assets/design-/images/filter5.png
+    - assets/design-/images/icon-dictation.png
+    - assets/design-/images/battery-po5.png
+    - assets/design-/images/ic-round-verified-HHu.png
+    - assets/design-/images/mobile-signal-K7R.png
+    - assets/design-/images/battery-XXZ.png
+    - assets/design-/images/akar-icons-cross-2wV.png
+    - assets/design-/images/akar-icons-cross-uKy.png
+    - assets/design-/images/icon-emoji.png
+    - assets/design-/images/akar-icons-cross-bJs.png
+    - assets/design-/images/akar-icons-cross-y2T.png
+    - assets/design-/images/icon-dictation-WL3.png
+    - assets/design-/images/fluent-history-20-regular.png
+    - assets/design-/images/wifi-jvB.png
+    - assets/design-/images/key-K8f.png
+    - assets/design-/images/image-8-fCP.png
+    - assets/design-/images/key-vPd.png
+    - assets/design-/images/fluent-history-20-regular-XGF.png
+    - assets/design-/images/key-rJX.png
+    - assets/design-/images/search1-1-vQB.png
+    - assets/design-/images/wifi-JNX.png
+    - assets/design-/images/battery-Y59.png
+    - assets/design-/images/mobile-signal-mMD.png
+    - assets/design-/images/filter5-WfV.png
+    - assets/design-/images/key-hq5.png
+    - assets/design-/images/icon-emoji-jYo.png
+    - assets/design-/images/wifi-d8P.png
+    - assets/design-/images/key-Q6X.png
+    - assets/design-/images/mobile-signal-txj.png
+    - assets/design-/images/icon-emoji-aKm.png
+    - assets/design-/images/mobile-signal-Ax3.png
+    - assets/design-/images/fluent-history-20-regular-ffy.png
+    - assets/design-/images/burger-king-4-1-3PR.png
+    - assets/design-/images/search1-1-qw9.png
+    - assets/design-/images/akar-icons-cross-zBm.png
+    - assets/design-/images/mask-group-g4b.png
+    - assets/design-/images/akar-icons-chevron-left-YsV.png
+    - assets/design-/images/icon-dictation-gsD.png
+    - assets/design-/images/filter5-Hzj.png
+    - assets/design-/images/image-8-WY3.png
+    - assets/design-/images/akar-icons-cross-dZM.png
+    - assets/design-/images/mobile-signal-Lm1.png
+    - assets/design-/images/wifi-C7V.png
+    - assets/design-/images/iconly-light-filter.png
+    - assets/design-/images/image-40.png
+    - assets/design-/images/wifi-3Th.png
+    - assets/design-/images/battery-ACK.png
+    - assets/design-/images/wifi-2fm.png
+    - assets/design-/images/mobile-signal-X2B.png
+    - assets/design-/images/akar-icons-cross-BcX.png
+    - assets/design-/images/akar-icons-chevron-left-TMd.png
+    - assets/design-/images/iconly-light-filter-r1h.png
+    - assets/design-/images/battery-Hc7.png
+    - assets/design-/images/vector-opw.png
+    - assets/design-/images/image-8-Vxf.png
+    - assets/design-/images/logos-dribbble-icon-4xB.png
+    - assets/design-/images/akar-icons-cross-pxj.png
+    - assets/design-/images/logos-dribbble-icon-EVy.png
+    - assets/design-/images/image-4-gb5.png
+    - assets/design-/images/auto-group-72cb.png
+    - assets/design-/images/image-4-baT.png
+    - assets/design-/images/vector-y8o.png
+    - assets/design-/images/mobile-signal-NzX.png
+    - assets/design-/images/vector-pyZ.png
+    - assets/design-/images/image-33.png
+    - assets/design-/images/vector-HEj.png
+    - assets/design-/images/vector-QG3.png
+    - assets/design-/images/wifi-R15.png
+    - assets/design-/images/auto-group-aanf.png
+    - assets/design-/images/image-25.png
+    - assets/design-/images/image-5-CgK.png
+    - assets/design-/images/akar-icons-cross-9wy.png
+    - assets/design-/images/search1-1-qB1.png
+    - assets/design-/images/image-44.png
+    - assets/design-/images/vector-TEj.png
+    - assets/design-/images/battery-9cw.png
+    - assets/design-/images/image-38.png
+    - assets/design-/images/auto-group-gsib.png
+    - assets/design-/images/vector-g6P.png
+    - assets/design-/images/key-1VD.png
+    - assets/design-/images/eye.png
+    - assets/design-/images/password6-1.png
+    - assets/design-/images/image-19.png
+    - assets/design-/images/mail-outline-1.png
+    - assets/design-/images/battery-YJf.png
+    - assets/design-/images/wifi-Efd.png
+    - assets/design-/images/ion-logo-facebook.png
+    - assets/design-/images/akar-icons-chevron-left-Cqq.png
+    - assets/design-/images/icon-emoji-g9H.png
+    - assets/design-/images/cib-apple.png
+    - assets/design-/images/key-wMM.png
+    - assets/design-/images/wifi-DVm.png
+    - assets/design-/images/ion-logo-facebook-DJj.png
+    - assets/design-/images/wifi-TnK.png
+    - assets/design-/images/mobile-signal-8xs.png
+    - assets/design-/images/mail-outline-1-8HH.png
+    - assets/design-/images/battery-hzT.png
+    - assets/design-/images/icon-dictation-doy.png
+    - assets/design-/images/flat-color-icons-google.png
+    - assets/design-/images/key-aPV.png
+    - assets/design-/images/mobile-signal-fVM.png
+    - assets/design-/images/battery-z7V.png
+    - assets/design-/images/eye-Ssm.png
+    - assets/design-/images/mobile-signal-Yfu.png
+    - assets/design-/images/icon-dictation-vbm.png
+    - assets/design-/images/mobile-signal-jYP.png
+    - assets/design-/images/profile2-1.png
+    - assets/design-/images/flat-color-icons-google-EKm.png
+    - assets/design-/images/group-62.png
+    - assets/design-/images/key-NRH.png
+    - assets/design-/images/password6-1-1go.png
+    - assets/design-/images/battery-nLK.png
+    - assets/design-/images/icon-emoji-C7V.png
+    - assets/design-/images/akar-icons-chevron-left-4YK.png
+    - assets/design-/images/wifi-XzK.png
+    - assets/design-/images/cib-apple-zTV.png
+    - assets/design-/images/wifi-4Qj.png
+    - assets/design-/images/auto-group-9pkd.png
+    - assets/design-/images/key-xou.png
+    - assets/design-/images/battery-Apj.png
+    - assets/design-/images/mobile-signal-udD.png
+    - assets/design-/images/battery-aaw.png
+    - assets/design-/images/wifi-x7d.png
+    - assets/design-/images/wifi-wGo.png
+    - assets/design-/images/mobile-signal-o7y.png
+    - assets/design-/images/auto-group-fgtv.png
+    - assets/design-/images/battery-LYs.png
+    - assets/design-/images/mobile-signal-Eu9.png
+    - assets/design-/images/mobile-signal-MTy.png
+    - assets/design-/images/wifi-VKH.png
+    - assets/design-/images/battery-cuh.png
+    - assets/design-/images/icon-emoji-jjR.png
+    - assets/design-/images/akar-icons-chevron-left-6r7.png
+    - assets/design-/images/akar-icons-chevron-left-xkT.png
+    - assets/design-/images/key-51d.png
+    - assets/design-/images/icon-dictation-tgb.png
+    - assets/design-/images/group-41.png
+    - assets/design-/images/password6-1-7pF.png
+    - assets/design-/images/wifi-mRV.png
+    - assets/design-/images/battery-3zb.png
+    - assets/design-/images/mobile-signal-MoR.png
+    - assets/design-/images/cib-apple-fb9.png
+    - assets/design-/images/password6-1-bWj.png
+    - assets/design-/images/mail-outline-1-Xt7.png
+    - assets/design-/images/profile2-1-xUs.png
+    - assets/design-/images/flat-color-icons-google-QXm.png
+    - assets/design-/images/ion-logo-facebook-JHh.png
+    - assets/design-/images/ion-logo-facebook-13Z.png
+    - assets/design-/images/battery-4yH.png
+    - assets/design-/images/wifi-yG7.png
+    - assets/design-/images/eye-Agb.png
+    - assets/design-/images/akar-icons-chevron-left-em9.png
+    - assets/design-/images/mobile-signal-xwD.png
+    - assets/design-/images/eye-HqD.png
+    - assets/design-/images/flat-color-icons-google-cxj.png
+    - assets/design-/images/wifi-z5h.png
+    - assets/design-/images/mail-outline-1-ZU7.png
+    - assets/design-/images/password6-1-EYB.png
+    - assets/design-/images/wifi-aNw.png
+    - assets/design-/images/battery-jgP.png
+    - assets/design-/images/cib-apple-cmq.png
+    - assets/design-/images/battery-UZ9.png
+    - assets/design-/images/mobile-signal-aMH.png
+    - assets/design-/images/akar-icons-chevron-left-rZ9.png
+    - assets/design-/images/mobile-signal-6D1.png
+    - assets/design-/images/wifi-UMZ.png
+    - assets/design-/images/eye-1F1.png
+    - assets/design-/images/eye-iAf.png
+    - assets/design-/images/battery-t2w.png
+    - assets/design-/images/mobile-signal-jX9.png
+    - assets/design-/images/akar-icons-chevron-left-vJo.png
+    - assets/design-/images/eye-J8K.png
+    - assets/design-/images/battery-R1D.png
+    - assets/design-/images/mobile-signal-eN7.png
+    - assets/design-/images/wifi-MTZ.png
+    - assets/design-/images/password6-1-nxb.png
+    - assets/design-/images/battery-Lkb.png
+    - assets/design-/images/icon-dictation-6HH.png
+    - assets/design-/images/password6-1-ZQw.png
+    - assets/design-/images/battery-UBu.png
+    - assets/design-/images/auto-group-ekjs.png
+    - assets/design-/images/mobile-signal-wVM.png
+    - assets/design-/images/eye-WKV.png
+    - assets/design-/images/wifi-nsM.png
+    - assets/design-/images/key-a1h.png
+    - assets/design-/images/akar-icons-cross-mmd.png
+    - assets/design-/images/battery-Yhq.png
+    - assets/design-/images/mobile-signal-ScK.png
+    - assets/design-/images/wifi-92T.png
+    - assets/design-/images/mobile-signal-zsu.png
+    - assets/design-/images/wifi-pro.png
+    - assets/design-/images/password6-1-Pbh.png
+    - assets/design-/images/wifi-CTD.png
+    - assets/design-/images/battery-hP1.png
+    - assets/design-/images/vector-coV.png
+    - assets/design-/images/akar-icons-chevron-left-MW3.png
+    - assets/design-/images/mobile-signal-5n3.png
+    - assets/design-/images/akar-icons-chevron-left-WXu.png
+    - assets/design-/images/key-Vxf.png
+    - assets/design-/images/mobile-signal-qKh.png
+    - assets/design-/images/battery-97R.png
+    - assets/design-/images/emojione-flag-for-us-outlying-islands.png
+    - assets/design-/images/mobile-signal-VgP.png
+    - assets/design-/images/spotify.png
+    - assets/design-/images/wifi-hyu.png
+    - assets/design-/images/wifi-jJb.png
+    - assets/design-/images/wifi-GbM.png
+    - assets/design-/images/teenyicons-tick-circle-solid-ypF.png
+    - assets/design-/images/teenyicons-tick-circle-solid-2od.png
+    - assets/design-/images/auto-group-2god.png
+    - assets/design-/images/mobile-signal-Fvj.png
+    - assets/design-/images/spotify-pvw.png
+    - assets/design-/images/spotify-efd.png
+    - assets/design-/images/key-ykw.png
+    - assets/design-/images/wifi-nkK.png
+    - assets/design-/images/wifi-kqZ.png
+    - assets/design-/images/teenyicons-tick-circle-solid-45Z.png
+    - assets/design-/images/icon-dictation-a3u.png
+    - assets/design-/images/battery-L4K.png
+    - assets/design-/images/akar-icons-chevron-left-hSK.png
+    - assets/design-/images/battery-QLj.png
+    - assets/design-/images/wifi-jP1.png
+    - assets/design-/images/curve-1.png
+    - assets/design-/images/auto-group-jez7.png
+    - assets/design-/images/wifi-xG3.png
+    - assets/design-/images/battery-UoD.png
+    - assets/design-/images/group-41-hZV.png
+    - assets/design-/images/mobile-signal-CWF.png
+    - assets/design-/images/emojione-flag-for-us-outlying-islands-5pw.png
+    - assets/design-/images/wifi-DRM.png
+    - assets/design-/images/battery-MXZ.png
+    - assets/design-/images/mobile-signal-41H.png
+    - assets/design-/images/akar-icons-chevron-left-1qd.png
+    - assets/design-/images/akar-icons-chevron-left-LN7.png
+    - assets/design-/images/wifi-t1Z.png
+    - assets/design-/images/icon-emoji-Xbq.png
+    - assets/design-/images/rectangle-114.png
+    - assets/design-/images/rectangle-114-NCB.png
+    - assets/design-/images/vector-5NB.png
+    - assets/design-/images/rectangle-114-Xk7.png
+    - assets/design-/images/akar-icons-chevron-left-xZ9.png
+    - assets/design-/images/akar-icons-cross-reX.png
+    - assets/design-/images/battery-utw.png
+    - assets/design-/images/curve-1-nJX.png
+    - assets/design-/images/akar-icons-cross-1h5.png
+    - assets/design-/images/key-XvK.png
+    - assets/design-/images/mobile-signal-W1Z.png
+    - assets/design-/images/curve-1-Ggs.png
+    - assets/design-/images/wifi-Zhu.png
+    - assets/design-/images/wifi-gnX.png
+    - assets/design-/images/mobile-signal-wby.png
+    - assets/design-/images/spotify-SRZ.png
+    - assets/design-/images/mobile-signal-kBM.png
+    - assets/design-/images/curve-1-Lz7.png
+    - assets/design-/images/spotigy-czo.png
+    - assets/design-/images/battery-1cw.png
+    - assets/design-/images/battery-NmZ.png
+    - assets/design-/images/wifi-fNT.png
+    - assets/design-/images/battery-Lew.png
+    - assets/design-/images/mobile-signal-F9d.png
+    - assets/design-/images/spotify-ehZ.png
+    - assets/design-/images/battery-5Dm.png
+    - assets/design-/images/auto-group-rtsh.png
+    - assets/design-/images/spotify-Zq5.png
+    - assets/design-/images/icon-emoji-Uh9.png
+    - assets/design-/images/mobile-signal-mi3.png
+    - assets/design-/images/icon-dictation-wkw.png
+    - assets/design-/images/akar-icons-chevron-left-ddm.png
+    - assets/design-/images/battery-xg3.png
+    - assets/design-/images/battery-bPZ.png
+    - assets/design-/images/battery-BsZ.png
+    - assets/design-/images/mobile-signal-odM.png
+    - assets/design-/images/spotify-z5y.png
+    - assets/design-/images/teenyicons-tick-circle-solid-56b.png
+    - assets/design-/images/rectangle-114-49R.png
+    - assets/design-/images/spotify-n3u.png
+    - assets/design-/images/spotify-vSF.png
+    - assets/design-/images/rectangle-114-cZy.png
+    - assets/design-/images/curve-1-XaT.png
+    - assets/design-/images/wifi-44b.png
+    - assets/design-/images/rectangle-114-oAb.png
+    - assets/design-/images/rectangle-114-Fjy.png
+    - assets/design-/images/icon-emoji-9KZ.png
+    - assets/design-/images/akar-icons-chevron-left-WqZ.png
+    - assets/design-/images/curve-1-w1d.png
+    - assets/design-/images/mobile-signal-U9y.png
+    - assets/design-/images/curve-1-Hmu.png
+    - assets/design-/images/curve-1-EMZ.png
+    - assets/design-/images/curve-1-5mM.png
+    - assets/design-/images/curve-1-8U3.png
+    - assets/design-/images/rectangle-34-gwM.png
+    - assets/design-/images/rectangle-114-FeK.png
+    - assets/design-/images/rectangle-13-HSK.png
+    - assets/design-/images/rectangle-30-Rij.png
+    - assets/design-/images/curve-1-B8o.png
+    - assets/design-/images/mobile-signal-pH9.png
+    - assets/design-/images/rectangle-35-Kwh.png
+    - assets/design-/images/rectangle-31-wQX.png
+    - assets/design-/images/rectangle-15-Caf.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
